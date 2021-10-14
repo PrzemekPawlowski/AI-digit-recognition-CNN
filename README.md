@@ -1,1 +1,11 @@
-![number](https://user-images.githubusercontent.com/83333798/137342765-064a1301-287b-4d9b-95b9-d028912e9941.png)
+This simple model predicts a handwritten number. After 5 epochs, 
+the model predicts the number with 98% accuracy, the loss value is approx 0.03.
+On the test data, we get an accuracy of 98%, which tells us that the model is not overfitting.
+
+![image](https://user-images.githubusercontent.com/83333798/137344235-4486105a-08cb-4ab2-86cf-76aea23ae69c.png)
+
+The file named "prediction_of_own_number.py" implements a simple way to use the model,
+to predict the number from the image.
+
+Some examples
+![Bez tytułu](https://user-images.githubusercontent.com/83333798/137346272-3bbdcc07-033a-4b59-8f8a-d2eddcd64120.png)
