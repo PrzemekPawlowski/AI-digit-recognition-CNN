@@ -1,0 +1,1 @@
+![alt text](E:\AI_projects\Digit_recognition_CNN\number.png)
