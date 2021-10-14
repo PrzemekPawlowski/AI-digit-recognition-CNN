@@ -16,7 +16,7 @@ x_train_copy = np.array(x_train).reshape(-1, IMG_SIZE, IMG_SIZE, 1)
 x_test_copy = np.array(x_test).reshape(-1, IMG_SIZE, IMG_SIZE, 1)
 
 model = models.Sequential()
-model.add(layers.Conv2D(128, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+model.add(layers.Conv2D(128, (3, 3), padding='same', activation='relu', input_shape=(28, 28, 1)))
 model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
 model.add(layers.Conv2D(64, (3, 3), activation='relu'))
@@ -55,3 +55,4 @@ print(np.argmax(predictions[0]))
 
 plt.imshow(x_test[0], cmap=plt.cm.binary) # cmp - color map (convert to black and white)
 plt.show()
+
