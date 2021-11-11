@@ -13,4 +13,5 @@ Some examples
 The model.py file uses a sequential model. In addition to the sequential model, we can use functional models. 
 Then our network model will look like this: 
 
-![Functional_API_digit_recognition](https://user-images.githubusercontent.com/83333798/141283858-5f840931-dc6b-4b19-a577-c64ca6cf108f.png)
+![Functional_API_digit_recognition](https://user-images.githubusercontent.com/83333798/141284204-c5e38570-31be-4fa8-983e-206dadf502dc.png)
+
