@@ -5,7 +5,7 @@ The network was built using the Tensorflow framework.
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [About the application](#about)
+* [About the application](#about-the-application)
 
 ## General info
 This simple model predicts a handwritten number. After 5 epochs, the model predicts the number with 98% accuracy, the loss value is approx 0.03.
